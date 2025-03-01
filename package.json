@@ -1,0 +1,30 @@
+{
+  "name": "notorium",
+  "version": "1.0.0",
+  "description": "Um app para te ajudar nos estudos!",
+  "keywords": [
+    "estudos",
+    "notas",
+    "organização"
+  ],
+  "homepage": "https://github.com/Gusta-snt/Notorium#readme",
+  "bugs": {
+    "url": "https://github.com/Gusta-snt/Notorium/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gusta-snt/Notorium.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Gustavo Ferreira dos Santos",
+  "type": "commonjs",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron": "^34.3.0"
+  },
+  "devDependencies": {}
+}
