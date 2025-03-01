@@ -1,0 +1,70 @@
+#open-folder-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0C0C0C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#open-folder-screen * {
+    font-family: 'Poppins', sans-serif;
+}
+
+#open-folder-screen div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#open-folder-screen div img {
+    width: 70px;
+}
+
+#open-folder-screen div p {
+    font-family: 'logoFont';
+    font-size: 36px;
+}
+
+#open-folder-screen form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    width: 60%;
+    max-width: 500px;
+}
+
+#open-folder-screen form hr {
+    border: none;
+    width: 90%;
+    height: 1px;
+    background-color: #171717;
+    margin: 10px 0px;
+}
+
+#open-folder-screen form label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#open-folder-screen button {
+    border: none;
+    background-color: #F2613F;
+    transition: all .3s;
+    height: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#open-folder-screen button:hover {
+    background-color: #9B3922;
+}
