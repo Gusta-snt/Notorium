@@ -1,7 +1,7 @@
 #open-folder-screen {
     width: 100vw;
     height: 100vh;
-    background-color: #0C0C0C;
+    background-color: rgba(15,15,15,255);
     color: white;
     display: flex;
     flex-direction: column;
