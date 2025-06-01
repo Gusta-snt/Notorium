@@ -1,30 +1,22 @@
 {
   "name": "notorium",
+  "license": "0BSD",
   "version": "1.0.0",
-  "description": "Um app para te ajudar nos estudos!",
-  "keywords": [
-    "estudos",
-    "notas",
-    "organização"
-  ],
-  "homepage": "https://github.com/Gusta-snt/Notorium#readme",
-  "bugs": {
-    "url": "https://github.com/Gusta-snt/Notorium/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gusta-snt/Notorium.git"
-  },
-  "license": "GPL-3.0",
-  "author": "Gustavo Ferreira dos Santos",
-  "type": "commonjs",
-  "main": "src/main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
   },
   "dependencies": {
-    "electron": "^34.3.0"
+    "expo": "~53.0.9",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
 }
